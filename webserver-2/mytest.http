@@ -1,0 +1,26 @@
+### Get All products
+get {{hostname}}/products?count=30
+
+### Get product
+get {{hostname}}/product/3
+
+### Create Product
+post {{hostname}}/product
+Content-Type: application/json
+
+{
+    "name": "ice cream",
+	"price": 500
+}
+
+### Update Product
+put {{hostname}}/product/3
+Content-Type: application/json
+
+{
+    "price": 40,
+    "name": "orange"
+}
+
+### Delete Product
+delete {{hostname}}/product/2

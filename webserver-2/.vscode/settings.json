@@ -1,0 +1,8 @@
+{
+    "rest-client.environmentVariables":{
+        "$shared": {},
+        "Local Env":{
+            "hostname": "http://localhost:8010"
+        }
+    }
+}
